@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj": {}
+    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj": {}
   },
   "projects": {
-    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj": {
+    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj",
+        "projectUniqueName": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj",
         "projectName": "AngularWithOtherAPI.Angular",
-        "projectPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj",
+        "projectPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.Angular\\AngularWithOtherAPI.Angular.csproj",
         "packagesPath": "C:\\Users\\prompt\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.Angular\\obj\\",
+        "outputPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.Angular\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prompt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

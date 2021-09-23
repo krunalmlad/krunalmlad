@@ -10,3 +10,15 @@ D:\Training\Training Project\Angular\AngularWithOtherAPI\AngularWithOtherAPI.Ang
 D:\Training\Training Project\Angular\AngularWithOtherAPI\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.dll
 D:\Training\Training Project\Angular\AngularWithOtherAPI\AngularWithOtherAPI.Angular\obj\Debug\net5.0\ref\AngularWithOtherAPI.Angular.dll
 D:\Training\Training Project\Angular\AngularWithOtherAPI\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.pdb
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\bin\Debug\net5.0\AngularWithOtherAPI.Angular.deps.json
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\bin\Debug\net5.0\AngularWithOtherAPI.Angular.dll
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\bin\Debug\net5.0\ref\AngularWithOtherAPI.Angular.dll
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\bin\Debug\net5.0\AngularWithOtherAPI.Angular.pdb
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.csproj.AssemblyReference.cache
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.AssemblyInfoInputs.cache
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.AssemblyInfo.cs
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.csproj.CoreCompileInputs.cache
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.dll
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\ref\AngularWithOtherAPI.Angular.dll
+D:\Training\Training Project\Angular\AngularWithOtherAPI\krunalmlad\AngularWithOtherAPI.Angular\obj\Debug\net5.0\AngularWithOtherAPI.Angular.pdb

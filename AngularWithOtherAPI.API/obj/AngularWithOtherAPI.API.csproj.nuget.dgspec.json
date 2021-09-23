@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj": {}
+    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj": {}
   },
   "projects": {
-    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj": {
+    "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj",
+        "projectUniqueName": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj",
         "projectName": "AngularWithOtherAPI.API",
-        "projectPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj",
+        "projectPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.API\\AngularWithOtherAPI.API.csproj",
         "packagesPath": "C:\\Users\\prompt\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\AngularWithOtherAPI.API\\obj\\",
+        "outputPath": "D:\\Training\\Training Project\\Angular\\AngularWithOtherAPI\\krunalmlad\\AngularWithOtherAPI.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prompt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
