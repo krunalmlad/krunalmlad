@@ -1,0 +1,123 @@
+<div class="row" >
+  <div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 p-5" >
+    <div class="card ">
+      <div class="card-header">
+        <h4 class="card-title">{{pageTitle}}</h4>
+      </div>
+      <div class="card-body">
+        <form (ngSubmit)="studentAddEditForm.form.valid &&  onStudentSubmit(studentAddEditForm)" #studentAddEditForm="ngForm">
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <input type="text" class="form-control"
+                       name="firstName" ngModel
+                       #firstName="ngModel" placeholder="First Name" minlength="2" maxlength="25"
+                       [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && firstName.invalid }" required />
+                <div *ngIf="studentAddEditForm?.submitted && firstName.invalid" class="invalid-feedback">
+                  <div *ngIf="firstName.errors?.required">First Name is required</div>
+                  <div *ngIf="firstName.errors?.minlength">First name must be at least 2 characters</div>
+                  <div *ngIf="firstName.errors?.maxlength">First name must be at less then 25 characters</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Last Name"
+                       name="lastName" ngModel #lastName="ngModel"
+                       [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && lastName.invalid }" required />
+                <div *ngIf="studentAddEditForm.submitted && lastName.invalid" class="invalid-feedback">
+                  <div *ngIf="lastName.errors?.required">Last Name is required</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+
+                <input type="radio" id="genderMale"
+                       name="gender" ngModel #gender="ngModel" value="Male"
+                       [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && gender.invalid }" required />
+                <label for="genderMale"> &nbsp; Male &nbsp; </label>
+                <input type="radio" id="genderFeMale"
+                       name="gender" ngModel #gender="ngModel" value="Female"
+                       [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && gender.invalid }" required />
+                <label for="genderFeMale"> &nbsp; Female </label>
+                <div *ngIf="studentAddEditForm.submitted && gender.invalid" class="invalid-feedback">
+                  <div *ngIf="gender.errors?.required">Please select gender</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <select class="form-control" name="standardId" ngModel #standardId="ngModel"
+                        [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && standardId.invalid }" required>
+                  <option value="" selected="selected">Select Standard</option>
+                  <option *ngFor="let item of standardList" [value]="item.id">{{item.name}}</option>
+                </select>
+              </div>
+              <div *ngIf="studentAddEditForm.submitted && standardId.invalid" class="invalid-feedback">
+                <div *ngIf="standardId.errors?.required">Standard is required</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <input type="text" class="form-control"
+                       name="address" ngModel #address="ngModel" placeholder="Address"
+                       [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && address.invalid }" required />
+                <div *ngIf="studentAddEditForm.submitted && address.invalid" class="invalid-feedback">
+                  <div *ngIf="address.errors?.required">Address is required</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <input type="text" class="form-control" name="city" placeholder="City"
+                       ngModel #city="ngModel" [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && city.invalid }" required />
+                <div *ngIf="studentAddEditForm.submitted && city.invalid" class="invalid-feedback">
+                  <div *ngIf="city.errors?.required">City is required</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <input type="text" class="form-control"
+                       name="state" ngModel #state="ngModel" placeholder="State"
+                       [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && state.invalid }" required />
+                <div *ngIf="studentAddEditForm.submitted && state.invalid" class="invalid-feedback">
+                  <div *ngIf="state.errors?.required">State is required</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+              <div class="form-group">
+                <select class="form-control" name="countryId" ngModel #countryId="ngModel"
+                        [ngClass]="{ 'is-invalid': studentAddEditForm.submitted && countryId.invalid }" required>
+                  <option value="" selected="selected">Select Country</option>
+                  <option *ngFor="let item of countryList" [value]="item.id">{{item.name}}</option>
+                </select>
+                <div *ngIf="studentAddEditForm.submitted && countryId.invalid" class="invalid-feedback">
+                  <div *ngIf="countryId.errors?.required">Country is required</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-success">
+                <!--[disabled]="!studentAddEditForm.form.valid"-->
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="src\app\component\student\add-edit-student\add-edit-student.component.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="src\app\component\student\student.component.ts">
+      <SubType>Code</SubType>
+    </None>
+    <None Update="src\app\component\student\student.module.ts">
+      <SubType>Code</SubType>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+08/27/2021 11:30:34 +05:30 [] - Message : Call API get data using GetCountriesList()
+08/27/2021 11:32:11 +05:30 [Information] - Message : Call API get data using GetCountriesList()
+08/27/2021 11:32:32 +05:30 [Information] - Message : Call API get data using GetAllStudents()
+08/27/2021 11:41:00 +05:30 [Information] - Message : Call API get data using GetCountriesList()
+08/27/2021 11:47:04 +05:30 [Error] - Message : An unhandled exception has occurred while executing the request.
+System.Exception: This is an exception that will be handle by middleware
+   at AngularWithOtherAPI.API.Controllers.StandardController.GetStandardById(Int32 id) in D:\Training\Training Project\Angular\AngularWithOtherAPI\AngularWithOtherAPI.API\Controllers\StandardController.cs:line 76
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+08/27/2021 11:47:04 +05:30 [Information] - Message : {"StatusCode":500,"Message":"This is an exception that will be handle by middleware","Path":"/api/Standard/get-standard-by-id/1"}
+08/27/2021 11:57:47 +05:30 [Error] - Message : An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AngularWithOtherAPI.API.Data.Repositories.IRepositories.ILogsRespository' while attempting to activate 'AngularWithOtherAPI.API.Controllers.LogsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+08/27/2021 11:57:48 +05:30 [Information] - Message : {"StatusCode":500,"Message":"Unable to resolve service for type 'AngularWithOtherAPI.API.Data.Repositories.IRepositories.ILogsRespository' while attempting to activate 'AngularWithOtherAPI.API.Controllers.LogsController'.","Path":"/api/Logs/get-all-logs-from-db"}
